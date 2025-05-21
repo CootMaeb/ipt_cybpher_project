@@ -1,0 +1,14 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "mpdf/mpdf": "^8.2",
+        "vlucas/phpdotenv": "^5.6",
+        "google/apiclient": "^1.1"
+    },
+    "repositories": {
+        "google-apiclient": {
+            "type": "vcs",
+            "url": "https://github.com/googleapis/google-api-php-client"
+        }
+    }
+}
