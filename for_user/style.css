@@ -1,0 +1,372 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+
+.divider-section{
+    position: relative;
+    margin-top: 20px;
+}
+
+.title-divider{
+    font-weight: 700;
+    color:#424242; 
+    font-size: 1.2rem;
+}
+
+.navbar { 
+    background-color: #ffa800; 
+}
+
+.navbar-brand span:first-child { 
+    color: white; 
+}
+
+.navbar-brand span:last-child {
+     color: #424242; 
+}
+
+.user-navbar{
+    height: 4.5rem;
+    padding: 0 1rem;
+}
+
+.user-profile{
+    height: 45px;
+    width: 45px;
+}
+        
+/* User index */
+.titleLex-text{
+    position: absolute;
+    transform: translateY(-50%);
+    top:10%;
+    z-index: 1;
+}
+
+.upperPresentation-container{
+    position: relative;
+    height:555px;
+}
+
+.childUP{
+    position: relative;
+    height: 100%;
+}
+
+.edit-lexsuzHotel{
+    font-size: 5.6rem;
+    text-shadow: 2px 2px 0px #3a2c1a, -1px -1px 0px #1a1a1a;
+}
+
+.edit-imageContainer{
+    position: absolute;
+    z-index: 2;
+    height: 78%;
+    top:18%;
+    box-shadow: 5px 5px 5px 5px rgba(250, 167, 2, 0.151);
+}
+
+.edit-imageChild{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.edit-imageBunso{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    opacity: 95%;
+}
+
+.edit-fakenav{
+    bottom: -1%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.edit-childFakenav{
+    padding: 5px;
+    width: 85%;
+    background-color: #f5ebda;
+}
+
+.edit-imageFakenav{
+    width: 20px;
+    height: 20px;
+}
+
+.bookNow-container{
+    z-index: 4;
+    width: 40%;
+    height: 9%;
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+}
+
+.bookNow-text{
+    font-size: 1.5rem;
+    font-weight: bold; 
+    background: linear-gradient(to right, #ff9100 0%, #e88500 50%,#fce2c4 100% );
+}
+
+
+
+
+.forRoom-container{
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 2rem;
+}
+
+.edit-forRoomCard{
+    width: 17rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f6d593;
+}
+
+.edit-forRoomImage{
+    object-fit: cover;
+    height:15rem; 
+    padding: 8px; 
+    border-top-left-radius:15px; 
+    border-top-right-radius:15px;
+}
+
+.edit-forRoomTitle{
+    margin-left: 20px; 
+    margin-top: 0.5rem; 
+    color:#424242;
+}
+
+
+
+.aboutLexsuz-container{
+    display: flex;
+    align-items: center; 
+    gap: 2rem;
+}
+
+.aboutLexsuz-imageOne{
+    border-radius: 8px; 
+    box-shadow: 5px 5px 5px 5px rgba(250, 167, 2, 0.151);
+}
+
+.aboutLexzus-image{
+    margin:13px;
+    width: 30rem;
+    height:20rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.lexsuz-description{
+    color: #555;
+    line-height: 1.6; 
+    font-size: 1rem;
+}
+
+
+
+.cafeNresto-child{
+    width:100%; 
+    height: 350px; 
+    box-shadow: -5px 5px 5px 5px rgba(250, 167, 2, 0.151); 
+    background-color: rgba(246, 228, 193, 0.42);
+}
+
+.cafeNresto-image{
+    object-fit: cover;
+    width:350px; 
+    height: 350px;
+}
+
+.cafeNresto-title{
+    font-size: 1.5rem;
+     margin-bottom: 2rem;
+}
+
+.rating-prof{
+    height: 40px; 
+    width: 40px;
+}
+
+.rating-star{
+    height: 15px; 
+    width:auto; 
+    margin-left:3rem;
+}
+
+.rating-orangeRec{
+    position: absolute;
+    right: 0px;
+    width: 60px;
+    height: 110px;
+    bottom:0;
+    background-color: #ffa800;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.rating-review{
+    margin-top:3rem; 
+    margin-bottom: 5rem;
+}
+
+/* User Room */
+.stadard-aNb-text{
+    color: white; 
+    border: 2px solid #ffa800; 
+    width:18%; 
+    padding-top:2px;
+    padding-bottom:2px; 
+    background-color:#ffa800; 
+    margin-bottom:3.3rem;
+}
+
+.standard-aNb-imgContainer{
+    width:100%; 
+    height: 275px; 
+    box-shadow: -5px 5px 5px 5px rgba(250, 167, 2, 0.151); 
+    margin-bottom: 3rem;
+}
+
+.standard-aNb-img{
+   object-fit: cover;
+   width:350px; 
+   height: 275px; 
+}
+
+.userRoom-fortext{
+    font-size: 1.5rem; 
+    margin-bottom: 2rem;
+}
+
+.userRoom-fordescription{
+    color: #555; 
+    line-height: 1.6; 
+    font-size: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.userRoom-btnDiv{
+    right:0; 
+    bottom: 0; 
+    margin:20px; 
+    color:#ffa800;
+}
+
+.userRoom-btn{
+    padding:10px 25px; 
+    background-color: #ffa800; 
+    border: none; 
+    border-radius: 0;
+}
+
+footer{
+    height: 60px; 
+    position: relative; 
+    display: flex; 
+    align-items: flex-end;
+}
+
+footer div{
+    width: 100%; 
+    height: 30px; 
+    position: absolute; 
+    background-color: #ffa800; 
+    z-index: 1; 
+    bottom: 0; 
+}
+
+footer img{
+    position: absolute; 
+    z-index: 2; 
+    top: 50%; 
+    left: 50%;
+    margin-top: -20px; 
+    margin-left: -50px; 
+    height: 50px; 
+    width: 50px;
+}
+
+.bookingLink{
+    margin-top:20px; 
+    color: #424242; 
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* My Booking */
+.status-badge {
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    border-radius: 0.25rem;
+}
+        
+.booking-card {
+    border-left: 4px solid;
+    margin-bottom: 1rem;
+    transition: transform 0.2s;
+}
+        
+.booking-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+        
+.filter-btn {
+    border: 1px solid;
+    border-left: 1rem solid;
+    width: 8rem;
+    border-radius: 0;
+    margin-right: 0.9rem;
+}
+
+.navbar_titleForBooking{
+    font-weight: 900;
+     font-size: larger;
+}
+
+.edit-cardForBooking{
+    border-left:1.5rem;
+    border:1px solid orange;
+}
+
+.edit-imageforBooking{
+    width: 16rem; 
+    height:12rem;
+}
+
+.edit-cardBtn{
+    border-radius:0;
+    margin-top:2.5rem;
+    width:6.5rem; 
+    height:2.5rem; 
+    padding:8px;
+}
+        
+
+
+    
+
